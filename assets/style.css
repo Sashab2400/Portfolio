@@ -8,3 +8,12 @@ color: white;
 
 }
 
+.live { 
+    background-color: hotpink;
+    color:whitesmoke;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+
+}
+
