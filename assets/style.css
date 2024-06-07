@@ -5,24 +5,59 @@ body    {
 
 h1 {
 color: white;
+
+}
+
+p {
+color: white;font-size: medium;
+
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 25px;
+    overflow: hidden;
+    background-color: lightblue;
+    border-style: 75px solid pink;
+    position: sticky;
 }
 
 li{
-    display: inline;
+   float: left;
+    
 }
 
+li a {
+    display: block;
+    color: lightseagreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    background: lightpink;
+}
 .live { 
     background-color: hotpink;
     color:whitesmoke;
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
 }
 
 
