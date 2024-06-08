@@ -43,10 +43,11 @@ a:hover {
     color: white;
     background: lightpink;
 }
+
 .live { 
     background-color: hotpink;
     color:whitesmoke;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 20px;
     padding: 20px;
 }
@@ -55,10 +56,18 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+
     color: #fff;
     height: 60px;
 }
 
 
-
+.tip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+    
+    
+}
