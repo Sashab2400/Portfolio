@@ -16,6 +16,11 @@ color: white;
 
 }
 
+img {
+    float: right;
+    flex-wrap: wrap;
+}
+
 p {
 color: white;font-size: medium;
 
